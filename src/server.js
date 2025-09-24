@@ -51,6 +51,17 @@ app.get('/posts/:id', (req, res) => {
   }
 });
 
+app.get('/users/:id', (req, res) => {
+  const db = readDbFile();
+  const id = parseInt(req.params.id);
+  const post = db.users.find(p => p.id === id);
+  if (post) {
+    res.json(post);
+  } else {
+    res.status(404).send('User not found');
+  }
+});
+
 // POST (Create) a new post
 app.post('/posts', (req, res) => {
   const db = readDbFile();
