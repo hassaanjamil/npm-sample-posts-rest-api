@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Artificial Intelligence",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Global economy",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "title": "Gold is worlds greatest asset",
+      "userId": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "AI is really a great revolution of 1st quarter of 21st century and there is a lot to happen next.",
+      "postId": 1,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "body": "I am feeling blessed to use AI's work while working",
+      "postId": 1,
+      "userId": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "hassan",
+      "name": "Hassan"
+    },
+    {
+      "id": 2,
+      "username": "hassanjamil",
+      "name": "M Hassan Jamil"
+    }
+  ]
+}
