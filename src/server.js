@@ -1,8 +1,10 @@
 const express = require('express');
 const fs = require('fs');
+const path = require('path');
 const app = express();
 const PORT = 3000;
-const DB_FILE = './data/db.json';
+// const DB_FILE = './src/data/db.json';
+const DB_FILE = path.join(__dirname, 'data', 'db.json');
 
 // Middleware to parse JSON bodies from incoming requests
 app.use(express.json());
@@ -26,6 +28,11 @@ const writeDbFile = (data) => {
     console.error('Error writing to db.json:', error);
   }
 };
+
+app.get('/file', (req, res) => {
+  const db = readDbFile();
+  res.json(db);
+});
 
 // GET all posts
 app.get('/posts', (req, res) => {
