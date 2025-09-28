@@ -3,43 +3,117 @@
     {
       "id": 1,
       "title": "Artificial Intelligence",
+      "body": "Artificial Intelligence is redefining industries from healthcare to finance. With machine learning models becoming more efficient, the future of work and creativity will be strongly influenced by AI-driven tools.",
       "userId": 1
     },
     {
       "id": 2,
-      "title": "Global economy",
-      "userId": 1
+      "title": "Global Economy",
+      "body": "The global economy is witnessing rapid shifts with digital transformation and geopolitical changes. Understanding new market dynamics is essential for sustainable growth and resilience.",
+      "userId": 2
     },
     {
       "id": 3,
-      "title": "Gold is worlds greatest asset",
+      "title": "Climate Change",
+      "body": "Climate change impacts every corner of the planet. Innovative green technologies and global cooperation are needed to address rising temperatures and extreme weather patterns.",
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "title": "Blockchain",
+      "body": "Blockchain technology goes far beyond cryptocurrency. Its power in supply chain transparency, decentralized finance, and digital identity is only starting to be realized.",
+      "userId": 1
+    },
+    {
+      "id": 5,
+      "title": "Remote Work",
+      "body": "Remote work is no longer a perk, it’s a norm. Companies embracing hybrid and remote-first cultures are attracting talent across borders and unlocking productivity benefits.",
       "userId": 2
+    },
+    {
+      "id": 6,
+      "title": "Space Exploration",
+      "body": "Private companies and government agencies are reigniting interest in space exploration. Missions to Mars and lunar bases are setting the stage for a multi-planetary future.",
+      "userId": 3
+    },
+    {
+      "id": 7,
+      "title": "Cybersecurity",
+      "body": "As digital footprints expand, so do cyber threats. Businesses and individuals need stronger practices and tools to ensure data privacy and protection against attacks.",
+      "userId": 1
+    },
+    {
+      "id": 8,
+      "title": "Healthcare Innovation",
+      "body": "Advances in telemedicine, wearable health devices, and AI diagnostics are transforming patient care. Accessibility and affordability remain central to true healthcare innovation.",
+      "userId": 2
+    },
+    {
+      "id": 9,
+      "title": "Renewable Energy",
+      "body": "Solar, wind, and hydro power are reshaping the global energy landscape. Investment in renewables is key to reducing carbon emissions and achieving sustainability goals.",
+      "userId": 3
+    },
+    {
+      "id": 10,
+      "title": "Metaverse",
+      "body": "The metaverse is blending virtual and physical realities. From social interactions to commerce, this digital universe could transform how people work, play, and connect.",
+      "userId": 1
     }
   ],
   "comments": [
     {
       "id": 1,
-      "body": "AI is really a great revolution of 1st quarter of 21st century and there is a lot to happen next.",
+      "body": "AI is the most disruptive force since the internet—couldn’t agree more.",
       "postId": 1,
-      "userId": 1
+      "userId": 2
     },
     {
       "id": 2,
-      "body": "I am feeling blessed to use AI's work while working",
-      "postId": 1,
+      "body": "Remote work truly broadened opportunities for global talent.",
+      "postId": 5,
+      "userId": 3
+    },
+    {
+      "id": 3,
+      "body": "Blockchain beyond crypto is where the magic lies.",
+      "postId": 4,
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "body": "Space exploration inspires us to dream bigger every time.",
+      "postId": 6,
+      "userId": 1
+    },
+    {
+      "id": 5,
+      "body": "Cybersecurity awareness should be taught as a basic life skill.",
+      "postId": 7,
       "userId": 2
+    },
+    {
+      "id": 6,
+      "body": "Renewables are no longer optional, they’re inevitable.",
+      "postId": 9,
+      "userId": 1
     }
   ],
   "users": [
     {
       "id": 1,
-      "username": "hassan",
-      "name": "Hassan"
+      "username": "mhassanjamil",
+      "name": "M Hassan Jamil"
     },
     {
       "id": 2,
-      "username": "hassanjamil",
-      "name": "M Hassan Jamil"
+      "username": "johndoe",
+      "name": "John Doe"
+    },
+    {
+      "id": 3,
+      "username": "tonystark",
+      "name": "Tony Stark"
     }
   ]
 }
