@@ -46,6 +46,21 @@ app.get('/comments', (req, res) => {
   res.json(db.comments);
 });
 
+// GET comments by post id
+app.get('/comments/:id', (req, res) => {
+  const db = readDbFile();
+  const id = parseInt(req.params.id);
+
+  const comments = db.comments.filter(c => c.postId === id);
+
+  if (comments.length > 0) {
+    res.json(comments);
+  } else {
+    res.json([]);
+    // res.status(404).send('No comments found for this post');
+  }
+});
+
 // GET a single post by id
 app.get('/posts/:id', (req, res) => {
   const db = readDbFile();
