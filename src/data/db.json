@@ -97,6 +97,60 @@
       "body": "Renewables are no longer optional, they’re inevitable.",
       "postId": 9,
       "userId": 1
+    },
+    {
+      "id": 7,
+      "body": "Also seeing AI augment, not replace, many roles right now.",
+      "postId": 1,
+      "userId": 3
+    },
+    {
+      "id": 8,
+      "body": "Curious how we’ll regulate foundation models responsibly.",
+      "postId": 1,
+      "userId": 1
+    },
+    {
+      "id": 9,
+      "body": "Mitigation must go hand-in-hand with adaptation strategies.",
+      "postId": 3,
+      "userId": 2
+    },
+    {
+      "id": 10,
+      "body": "Carbon pricing and green finance can accelerate change.",
+      "postId": 3,
+      "userId": 1
+    },
+    {
+      "id": 11,
+      "body": "Real utility shows up in transparent supply chains.",
+      "postId": 4,
+      "userId": 2
+    },
+    {
+      "id": 12,
+      "body": "Telemedicine only works if broadband access is equitable.",
+      "postId": 8,
+      "userId": 1
+    },
+    {
+      "id": 13,
+      "body": "Wearables are great—but data privacy must be paramount.",
+      "postId": 8,
+      "userId": 3
+    },
+    {
+      "id": 14,
+      "body": "Grid storage is the missing puzzle piece for wind/solar.",
+      "postId": 9,
+      "userId": 2
+    },
+    {
+      "id": 15,
+      "body": "Community-scale projects can drive faster adoption.",
+      "postId": 9,
+      "userId": 3
     }
   ],
   "users": [
